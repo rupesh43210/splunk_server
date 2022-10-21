@@ -8,6 +8,12 @@ if [ "" = "$PKG_OK" ]; then
    apt-get --yes install $REQUIRED_PKG
 fi
 
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 
+   echo " do a sudo su"
+   exit 1
+fi
+
 sudo apt update 
 
 REQUIRED_PKG="curl"
