@@ -56,5 +56,3 @@ sudo /opt/splunk/bin/splunk start
 echo "splunk has been installed successfully"
 
 sleep 15
-
-exit
