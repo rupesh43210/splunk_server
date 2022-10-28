@@ -4,7 +4,9 @@ splunk server install
  
  Following are the steps
  
- # sudo apt install git
+ # sudo apt install update
+ 
+ # sudo apt install -y git
  
  # git clone https://github.com/rupesh43210/splunk_server.git
  
