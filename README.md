@@ -1,4 +1,4 @@
-# splunk_server
+# splunk_server 9.02
 splunk server install
  for ubuntu/Debian
  
